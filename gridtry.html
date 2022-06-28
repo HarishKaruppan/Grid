@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid
+    </title>
+    <style>
+        .container{
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            display: grid;
+            gap: 10px;
+            grid-template-columns:repeat(6, 1fr) ;
+        }
+        b{
+            font-size: 30px;
+        }
+        .grid-item{
+            height: auto;
+            border: 1px solid black;
+            padding: 10px;
+            }
+        .item1{
+            grid-column:1/span 2;
+            grid-row: 1;
+            background-color: aqua;
+            }
+        .item2{
+            background-color: brown;
+            grid-column: 3/ span 2;
+            grid-row: 1/ span 2;
+            }
+        .item3{
+            background-color: cornflowerblue;
+            grid-row: 1/ span 2;
+            grid-column: 5;
+            }
+        .item4{
+            background-color: darkgray;
+            grid-column: 6;
+            grid-row: 1;
+            
+        }
+        .item5{
+            background-color: aqua;
+            grid-column: 1;
+            grid-row: 2;
+            }
+        .item6{
+            background-color:deeppink;
+            grid-column: 2;
+            grid-row: 2;
+            }
+        .item7{
+            background-color: brown;
+            grid-column: 6;
+            grid-row: 2;
+        }
+        .item8{
+            background-color:deeppink;
+            grid-column: 1;
+            grid-row: 3;
+            }
+        .item9{
+            background-color: brown;
+            grid-column: 2/ span 2;
+            grid-row: 3;
+        }
+        .item10{
+            background-color:deeppink;
+            grid-column: 4/ span 2;
+            grid-row: 3;
+            }
+        .item11{
+            background-color:blueviolet;
+            grid-column: 6;
+            grid-row: 3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-item item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia praesentium aliquid cum, esse sed, at perferendis totam blanditiis mollitia similique aperiam repellendus corrupti earum. Cupiditate mollitia <b>111111</b>vitae nam, facilis obcaecati inventore sapiente, ullam soluta amet perferendis fuga aliquid ratione aspernatur doloribus a ea vero sed atque ipsum modi reprehenderit porro? </div>
+        <div class="grid-item item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eius qui voluptas error? Laboriosam voluptatem facilis hic <b>222222</b>repellendus atque numquam odio alias itaque molestias vitae cumque aliquid provident, eos omnis consectetur praesentium temporibus ea pariatur earum id dolorum quidem illo ex. Dolore, ipsam rem ipsa quas mollitia quae suscipit atque?</div>
+        <div class="grid-item item3">Lorem ipsum dolor sit amet consectetur adipisicing elit.  quas amet reprehenderit recusandae quos hic alias dolor repellendus, eaque reiciendis ad delectus porro assumenda atque similique. Labore esse illo impedit a consequuntur tempora deleniti est <b>3333333</b>dolor.  deserunt, adipisci maxime magnam? Adipisci eveniet vero saepe fugit aliquid perferendis recusandae, voluptatum officia aut voluptate veritatis impedit ex iure molestiae doloribus magnam enim.</div>
+        <div class="grid-item item4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur expedita praesentium, iusto voluptatem sint aperiam obcaecati eos deleniti! Veniam ad, necessitatibus tempore consectetur provident,<b>4444444</b> ab iusto ipsum quas, quae asperiores perspiciatis eaque libero. Hic eaque dolores sed dicta repellat culpa quibusdam pariatur doloremque tempora sapiente, ullam, eveniet reprehenderit excepturi odio ipsam iste magni.</div>
+        <div class="grid-item item5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem beatae alias dolore placeat et illo totam excepturi obcaecati sint cum accusamus, maiores ducimus porro accusantium molestiae eaque corrupti eum, rem <b>5555555</b>enim maxime. Laboriosam excepturi consequuntur cum dolore vero qui magnam omnis minima, nam quae dicta non recusandae tenetur tempora?</div>
+        <div class="grid-item item6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eos facere accusantium in cumque repudiandae maiores sed, quae iste, quas nesciunt, impedit sunt. Voluptas ipsum at laborum est expedita tempora vitae veritatis eum sapiente maiores facere iusto architecto, rem saepe quam totam nihil quis perferendis optio! <b>6666666</b>Adipisci dolorum quasi blanditiis rem deserunt sed eligendi labore tempora, eos voluptates officiis perferendis iste corrupti incidunt reiciendis nisi laborum iusto ratione voluptate earum, dolorem praesentium mollitia qui? Exercitationem.</div>
+        <div class="grid-item item7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam? Blanditiis aperiam eveniet officia maiores molestiae similique ullam at ipsa, exercitationem sit, odit laudantium voluptatibus veritatis placeat praesentium ut dicta fugit sunt iste culpa harum. Quisquam omnis consectetur alias accusantium ducimus dicta <b>7777777</b>voluptatibus, magnam tenetur blanditiis impedit laudantium maxime quos, sapiente et assumenda vero non nihil optio eos ex perferendis?</div>
+        <div class="grid-item item8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam? Blanditiis aperiam eveniet officia maiores molestiae similique ullam at ipsa, exercitationem sit, odit laudantium voluptatibus veritatis placeat praesentium ut dicta fugit sunt iste culpa harum. Quisquam omnis consectetur alias accusantium ducimus dicta <b>8888888</b>voluptatibus, magnam tenetur blanditiis impedit laudantium maxime quos, sapiente et assumenda vero non nihil optio eos ex perferendis?</div>
+        <div class="grid-item item9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam? Blanditiis aperiam eveniet officia maiores molestiae similique ullam at ipsa, exercitationem sit, odit laudantium voluptatibus veritatis placeat praesentium ut dicta fugit sunt iste culpa harum. Quisquam omnis consectetur alias accusantium ducimus dicta <b>9999999</b>voluptatibus, magnam tenetur blanditiis impedit laudantium maxime quos, sapiente et assumenda vero non nihil optio eos ex perferendis?</div>
+        <div class="grid-item item10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam? Blanditiis aperiam eveniet officia maiores molestiae similique ullam at ipsa, exercitationem sit, odit laudantium voluptatibus veritatis placeat praesentium ut dicta fugit sunt iste culpa harum. Quisquam omnis consectetur alias accusantium ducimus dicta <b>1010101010</b>voluptatibus, magnam tenetur blanditiis impedit laudantium maxime quos, sapiente et assumenda vero non nihil optio eos ex perferendis?</div>
+        <div class="grid-item item11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam? Blanditiis aperiam eveniet officia maiores molestiae similique ullam at ipsa, exercitationem sit, odit laudantium voluptatibus veritatis placeat praesentium ut dicta fugit sunt iste culpa harum. Quisquam omnis consectetur alias accusantium ducimus dicta <b>111111111</b>voluptatibus, magnam tenetur blanditiis impedit laudantium maxime quos, sapiente et assumenda vero non nihil optio eos ex perferendis?</div>
+    </div>
+    
+</body>
+</html>
